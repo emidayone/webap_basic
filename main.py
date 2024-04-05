@@ -1,3 +1,5 @@
+#追加04052217
+
 import streamlit as st # フロントエンドを扱うstreamlitの機能をインポート
 import time # 時間を扱う機能をインポート
 
