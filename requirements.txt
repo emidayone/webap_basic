@@ -1,0 +1,13 @@
+
+import streamlit as st # フロントエンドを扱うstreamlitの機能をインポート
+import time # 時間を扱う機能をインポート
+
+import numpy as np # 数列を扱う機能をインポート
+
+from datetime import datetime
+from openai import OpenAI
+import os
+
+import pandas as pd # データフレームを扱う機能をインポート
+import yfinance as yf # yahoo financeから株価情報を取得するための機能をインポート
+import altair as alt # チャート可視化機能をインポート
