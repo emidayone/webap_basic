@@ -66,6 +66,7 @@ companies = st.multiselect(
     ['google', 'apple','TOYOTA'], # 最初に表示する企業名を設定
 )
 
+
 data = df.loc[companies] # 取得したデータから抽出するための配列で絞ってdataに代入
 st.write("株価 ", data.sort_index()) # dataにあるindexを表示
 data = data.T.reset_index() # dataを抽出して転置
